@@ -12,7 +12,7 @@
         <div class="col-md-8">
             <div class="post">
 
-                <a href="/">home</a>
+                <a th:href="@{'/'}">Home</a>
 
                 <h2 th:text="${post.title}">Title</h2>
                 <h5 th:text="'Created on ' +${post.createdAt}">Created data</h5>
