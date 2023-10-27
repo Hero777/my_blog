@@ -54,6 +54,5 @@ public class SeedData implements CommandLineRunner {
             postService.save(post1);
             postService.save(post2);
         }
-
     }
 }
